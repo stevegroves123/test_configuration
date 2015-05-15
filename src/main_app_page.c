@@ -11,7 +11,7 @@ static void window_load(Window *window)
  
   //Create TextLayer
   text_layer = text_layer_create(GRect(0, 0, 144, 168));
-  text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
+  text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
  
   //Option-specific setup
   if(inverted == true)
